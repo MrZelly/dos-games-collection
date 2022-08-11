@@ -1,0 +1,149 @@
+___________________________________________________________________________
+
+                                                        Sokoban for Windows
+                                                              Release 2.2.5
+
+                                       Copyright (c) 1992     Allan B. Liss
+
+                                    Internet: lissab@lldmpc.dnet.dupont.com
+                                                             CIS: 76247,642
+                                  Snail: P.O. Box 9171, Wilmington DE 19802
+
+Sokoban for Windows, Release 2.2.5, is being released as Freeware.
+This means that this product may be copied and distributed freely for 
+non-commercial purposes only.  If you represent a shareware clearing
+house, it is assumed that your charges are for media and overhead, so
+you may include this product in your catalog.
+
+The author makes no guarantees or warrantees regarding the suitability
+of this product for any given task.
+___________________________________________________________________________
+
+
+You are looking at the file SOKO.TXT.
+
+
+Sokoban is a classic puzzle game in which you assume the role of
+an overworked stockboy (stockperson?) in a large warehouse.  To earn
+your wages, you must neatly pack a set of crates onto the platforms
+provided on each of the increasingly difficult levels.  Pushing heavy
+crates around is hard work, so it's in your best interest to
+minimize the amount of moving and pushing you do to finish a level.
+
+
+Sokoban for Windows is my attempt to port this frustrating game to the
+Microsoft Windows 3.x environment.  The game distribution includes:
+
+	SOKO.TXT			you're looking at it
+	SOKO.EXE			the game
+	SOKO.HLP			the Windows help file
+
+After you run the game, two new files will be created:
+
+	SOKO.INI			initialization file
+	SOKO.SCO			high score / saved game file
+
+The only files absolutely required to run the game are SOKO.EXE and
+SOKO.HLP.  Just copy them to the same directory and create a program
+item in one of Windows' Program Manager groups.  If you're using OS/2
+2.0's WorkPlace Shell, make sure to set KBD_ALTHOME_BYPASS to ON in
+the WIN-OS/2 in the program's Settings notebook if you wish to use the
+Alt-Home accelerator key.
+
+
+The game is not shipped with a score file.  This means that the only
+thing you can reasonably do when you load the game is to select "New"
+from the Game menu.  The window will fill with the first puzzle.  The
+"soko-ban" (Japanese for "warehouse man") is the little red devil
+toward the lower right corner, and you move it with the cursor keys
+(up, down, left, right).  The mouse is not used.  To complete the
+level, you must push all the boxes into the black platform area at the
+right of the screen.  If you push a box into a corner (except for in
+the platform area), you're stuck and will have to restart the level by
+selecting "Undo Level" from the Move menu.  When you've pushed all the
+boxes into the platform, you advance to the next level.  Make sure to
+save your game when you complete the level!  There's an auto-save
+option you can select in case you forget.
+
+When you complete all 50 puzzles, you get a cutesy little animation to
+stare at for hours and hours with your raster-burned glazzies.
+
+Here's what the menu items do:
+
+	Game
+
+		New		Start a new game
+
+		Open		Open a previously saved game from
+				the score file (if you have one)
+
+		Save		Save the game.  This saves the last
+				level you succesfully completed
+				as well as the number of moves and
+				pushes it took you to complete it.
+				You can't save a 'level in progress'.
+				This item is grayed if you have
+				set the Autosave option or if the
+				game has been saved already.
+
+		Exit		...if you don't like to use Alt-F4.
+
+	Move
+
+		Undo last	Take back your last move.  Sometimes
+				you accidentally push a box one too
+				many spaces...that's what this is for.
+
+		Undo level	Restart the current level from the
+				beginning.  For when you've made the
+				level unsolvable.
+
+		Save position	Save your current position.  This is
+				handy when you make a set of moves
+				that you suspect are correct, but
+				you aren't sure how to proceed.  You
+				can Restore Position later instead
+				of restarting the entire level.  Saved
+				positions are lost when you restart
+				or advance levels, or when you exit
+				the game.
+
+		Restore position  See above.
+
+	Options
+
+		Autosave	Automatically save the game each time
+				you successfully complete a level.
+
+		Noise		Enable annoying noises for when you
+				try to walk through walls, etc.
+
+		Animate		Enable fancy wipes for restarting
+				levels, etc.  Can be frustrating on
+				slow machines.
+
+	Help
+
+		The usual Windows help.
+
+
+
+I will consider working on a version with a level editor if I see
+enough demand for it.  If you find bugs or have any suggestions on how
+to otherwise improve the game, send me e-mail (the Internet address
+gets checked most frequently).
+
+
+If you like the game, give a copy to somebody.  If you _really_ like
+it, send me money -- this will encourage me to release more free
+games.  If you REALLY, REALLY like the game, consider me for a
+position on your staff, especially if your company is in the
+Northwest.  I'm an systems analyst experienced with applications
+development on a variety of platforms.
+
+
+Enjoy!
+
+
+
+
